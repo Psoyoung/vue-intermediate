@@ -3,7 +3,7 @@
     <todo-header></todo-header>
     <todo-input></todo-input>
     <todo-list></todo-list>
-    <todo-footer></todo-footer>
+    <todo-footer></todo-footer><!--kebab기법 -->
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import TodoFooter from './components/TodoFooter.vue';
 
 export default {
   components: {
-    'TodoHeader': TodoHeader,
+    'TodoHeader': TodoHeader, //파스칼케이스
     'TodoInput': TodoInput,
     'TodoList': TodoList,
     'TodoFooter': TodoFooter
